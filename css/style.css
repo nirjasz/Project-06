@@ -1,0 +1,557 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* global css file */
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/* header section css */
+header{
+	width: 100%;
+	background-color: black;
+}
+.nav-item{
+	margin-left: 20px;
+}
+.nav-link{
+	color: white !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px !important;
+}
+
+/* banner sectuon css */
+.banner{
+	width: 100%;
+	background-image: url(../img/banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh; 
+}
+.banner-text, .banner-form{
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-text h1{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	margin: 40px 0;
+}
+.banner-text .line{
+	height: 2px;
+	width: 8 0px;
+	background-color: white;
+	margin-bottom: 40px; 
+}
+.banner-text p{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+.banner-text button{
+	padding: 13px 44px;
+	background: transparent;
+	color: white;
+	border: none;
+	border: 1px solid white;
+}
+.banner-text button:hover{
+	background-color: #ff9b51;
+	border: #ff9b51;
+}
+.banner .card-body .form-control{
+	border: none;
+	border-bottom: 1px solid black !important;
+	border-radius: 0 !important;
+}
+.banner .card-body{
+	padding: 20px 30px !important;
+}
+.banner .card-header{
+	background-color: #f5f5f5;
+}
+.banner .card-header h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.banner .card-header h4 span{
+	color: #ff9b51;
+	text-transform: uppercase;
+}
+.banner .card-footer{
+	background-color: #ff9b51;
+}
+.banner .card-footer .form-control{
+	border: none !important;
+	color: white;
+	background: transparent;
+}
+.banner .card{
+	border: none;
+	margin-left: 100px;
+}
+.form-control:focus{
+	outline: none;
+	box-shadow: none;
+}
+.form-group{
+	margin: 26px 0;
+}
+
+/* social media section css */
+.social-media{
+	width: 100%;
+	background-color: white;
+	padding: 20px 0;
+}
+.social-media .col-md-7{
+	text-align: right;
+}
+.social-media .col-md-7 ul{
+	margin: 0;
+	margin-top: 15px;
+}
+.social-media .col-md-7 ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
+.social-media .col-md-7 ul li a i{
+	color: #cccccc;
+	font-size: 42px;
+}
+.social-media .col-md-7 ul li a i:hover{
+	color: #ff9b51;
+}
+.social-media .col-md-5 h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.social-media .col-md-5 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+p{
+	margin: 0;
+}
+
+/* feature-1 section css */
+.feature-1{
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 120px 0;
+}
+.feature-1 ul li:hover{
+	cursor: pointer;
+	background-color: #ff9b51;
+}
+.feature-1 ul li{
+	list-style: none;
+	height: 110px;
+	width: 120px;
+	line-height: 110px;
+	text-align: center;
+	border-bottom: 1px solid white;
+
+}
+.feature-1 ul li a{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.item-1{
+	background-color: #ff9b51;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.item-2{
+	background-color: #333333;
+}
+.item-3{
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #333333;
+}
+.feature-1 .col-md-4{
+	display: flex;
+	text-align: center;
+}
+.feature-1 h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+.feature-1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin: 32px 0;
+}
+.feature-1 button{
+	padding: 12px 32px;
+	background-color: #ff9b51;
+	border: 1px solid #ff9b51;
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+/* sublist section css*/
+.sublist{
+	width: 100%;
+	color: white;
+	padding: 120px;
+}
+.sublist h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #3b3b3b;
+}
+.sublist .line{
+	height: 2px;
+	width: 80px;
+	background-color: #ff9b51;
+	margin: 20px 0;
+}
+.sublist p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #a9aaac;
+}
+.sublist-title{
+	margin: 30px 0;
+}
+.sublist .title-icon{
+	text-align: center;
+}
+.sublist .title-icon i{
+	height: 50px;
+    width: 50px;
+    border: 2px solid #ff8b38;
+    text-align: center;
+    line-height: 50px;
+    font-size: 26px;
+    border-radius: 100%;
+    color: #ff8b38;
+    margin-top: 10px;
+}
+.title-text h5{
+	color: #3b3b3b;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+.title-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #a9aaac;
+	font-size: 14px;
+}
+
+/* standerd section css */
+.standerd{
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 72px 0;
+}
+.standerd h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #3b3b3b;
+	font-size: 18px;
+}
+.standerd .line{
+	height: 2px;
+	width: 80px;
+	background-color: #ff9b51 !important;
+	margin: 20px 0;
+}
+.standerd p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #a9aaac;
+	font-size: 14px;
+}
+
+/* process section css */
+.process{
+	padding: 80px 0;
+	width: 100%;
+	color: white;
+}
+.process-header{
+	margin: 0 auto;
+}
+.process-header h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: #3b3b3b;
+}
+.process-header .line{
+	height: 2px;
+	width: 60px;
+	background-color: #ff9b51 !important;
+	margin: 20px auto; 
+}
+.process-header p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #a9aaac;
+	font-size: 14px;
+}
+.process-body{
+	text-align: center;
+	margin: 52px 0;
+}
+.process-body i{
+	height: 70px;
+    width: 70px;
+    border: 3px solid #ff8b38;
+    text-align: center;
+    line-height: 70px;
+    font-size: 26px;
+    border-radius: 100%;
+    color: #ff8b38;
+}
+.process-body h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #3b3b3b;
+	font-size: 16px;
+	margin: 20px 0;
+}
+.process-body p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #a9aaac;
+	font-size: 12px;
+}
+
+/* pricing section css */
+.pricing{
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 120px 0;
+	text-align: center;
+}
+.pricing h1{
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.pricing .line{
+	height: 2px;
+	width: 80px;
+	background-color: #ff9b51 !important;
+	margin: 20px auto;
+}
+.pricing p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.price{
+	margin-top: 60px;
+	align-items: flex-end;
+}
+.price .card{
+	border: none;
+	border-radius: 0;
+}
+.price .card-header{
+	background-color: #333333;
+	color: white;
+	border: 1px solid #fff;
+	border-radius: 0;
+}
+.price .card-body{
+	background-color: #333333;
+	color: white;
+	border-bottom: 8px solid #ff9b51;
+}
+.price .card-body h1{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.price .card-body  h1 span{
+	font-size: 100px;
+}
+.price .card-body p{
+	color: #808089;
+	font-style: italic;
+}
+.price .card-footer{
+	padding: 0rem; 
+	background-color: #fff;
+}
+.price .card-footer ul{
+	margin-bottom: 0;
+}
+.price .card-footer ul li{
+	list-style: none;
+	border-bottom: 1px solid #f5f5f5;
+	padding: 8px 0;
+	color: #a9aaac;
+	text-transform: uppercase;
+}
+.middle .extra{
+	background-color: #ff9b51;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 12px 0;
+}
+.middle .extra p{
+	font-style: normal;
+	color: #fff !important;
+	margin-bottom: 0;
+	font-weight: 700;
+}
+.middle .card-body {
+	border-bottom: 0;
+	padding: 0;
+}
+.middle .middle-price{
+	padding: 1.25rem;
+}
+
+/* comments section css */
+.comments{
+	width: 100%;
+	padding: 120px 0;
+	text-align: center;
+}
+.comments h1{
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+.comments .line{
+	height: 2px;
+	width: 80px;
+	background-color: #ff9b51 !important;
+	margin: 20px auto;
+}
+.comments p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.comments .part-2{
+	margin-top: 40px;
+}
+.comments .message-box{
+	background-color: #f5f5f5;
+	padding: 15px 20px;
+	border-radius: 4px;
+	position: relative;
+}
+.comments .message-box p{
+	text-align: left;
+	font-style: italic;
+	line-height: 16px;
+}
+.comments .message-box .box-icon{
+	width: 30px;
+	height: 30px;
+	background-color: #f5f5f5;
+	position: absolute;
+	bottom: -15px;
+	left: 40px;
+	transform: rotate(45deg);
+}
+.user-info {
+	margin-top: 28px; 
+}
+.user-info .col-md-8{
+	text-align: left;
+	padding-left: 0; 
+}
+.user-info .col-md-4{
+	padding-right: 0;
+}
+
+/* custom section css */
+.custom-section {
+    width: 100%;
+    background: url(../img/design.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    text-align: center;
+}
+.custom-section .title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+.custom-section .line {
+    width: 80px;
+    height: 3px;
+    background: #fff;
+    margin: 30px auto;
+}
+.custom-section p {
+    color: white;
+}
+.custom-btn {
+    margin-top: 60px;
+}
+.custom-section button {
+    padding: 13px 40px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+/* contact us section css */
+.contact {
+    width: 100%;
+    padding: 120px 0;
+    background: white;
+    text-align: center;
+}
+.contact-form {
+    margin-top: 40px;
+}
+.contact .title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contact .line {
+    width: 80px;
+    height: 3px;
+    background: #ff9b51;
+    margin: 30px auto;
+}
+.contact .form-control {
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    border-radius: 0;
+}
+.contact-btn {
+    text-align: center;
+}
+.contact-btn .btn-primary {
+    padding: 12px 40px;
+    border: 1px solid #ff9b51;
+    background: #ff9b51;
+    color: white;
+}
+textarea {
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    border-radius: 0;
+    width: 100%;
+}
